@@ -1,0 +1,12 @@
+/* layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* creating custom class */
+@layer utilities {
+  .gradient {
+    /* left middle right gradient color */
+    @apply bg-gradient-to-r from-teal-600 via-blue-600 to-pink-600;
+  }
+}
